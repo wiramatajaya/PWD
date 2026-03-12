@@ -17,7 +17,7 @@
  - Ordered List (ol)
 
  *** HTML 3 — Table (Tabel) *** 
- - <table>, <tr>, <td>
+ - `<table>, <tr>, <td>`
  - <th>
  - colspan
  - rowspan
