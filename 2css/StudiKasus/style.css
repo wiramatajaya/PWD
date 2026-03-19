@@ -1,6 +1,12 @@
-body{
+:root{
     font-family: 'Poppins', sans-serif;
-    font-family: p;
+}
+h1{
+    text-align: center;
+}
+
+body{
+
     color: aliceblue;
     background-color: gray;
 }
@@ -13,8 +19,8 @@ body{
 }
 
 h3{
-    text-align: center;
     color: white;
+    font-size: x-large;
 }
 a{
     color: rgb(4, 4, 149);

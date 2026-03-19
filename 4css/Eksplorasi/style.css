@@ -1,0 +1,48 @@
+:root{
+    font-family: 'Poppins', sans-serif;
+    color:white;
+background-color: cadetblue
+}
+
+form{
+    width: 50%;
+}
+.form-input{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    margin-top: 20px;
+}
+input{
+    border: none;               /* Hilangkan semua sisi border */
+  border-bottom: 2px solid #ccc; /* Berikan hanya garis bawah */
+  outline: none;              /* Hilangkan garis biru bawaan browser saat diklik */
+  padding: 8px 0;             /* Beri ruang agar teks tidak menempel garis */
+  background: transparent;
+
+}
+
+.comment{
+    font-size: x-small;
+    padding-left: 10px;
+}
+th{
+
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+
+}
+tr{
+    height: 30px;
+}
+
+#pesan{
+    background-color: transparent;
+      border: 2px solid #ccc; /* Berikan hanya garis bawah */
+  outline: none;              /* Hilangkan garis biru bawaan browser saat diklik */
+  padding: 8px 0;             /* Beri ruang agar teks tidak menempel garis */
+  background: transparent;
+}
+/* display: block, inline, inline-block
+Dasar Flexbox: display:flex
+justify-content, align-items, gap */
