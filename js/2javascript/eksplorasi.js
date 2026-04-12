@@ -4,6 +4,6 @@ judulH1.textContent = "Judul Telah Berhasil Diubah!";
 
 
 const linkTombol = document.querySelector('#my-link');
-linkTombol.setAttribute('href', 'https://github.com');
-linkTombol.textContent = "Kunjungi GitHub Saya";
+linkTombol.setAttribute('href', 'https://github.com/wiramatajaya');
+linkTombol.textContent = "Kunjungi Repository Github Saya";
 
