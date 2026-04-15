@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Pendaftaran Event Kampus</title>
+<link rel="stylesheet" href="eksplorasi.css">
+</head>
+<body>
+    <div class="card">
+        <h2>Pendaftaran Panitia Event</h2>
+
+        <form action="" method="POST" border="1" >
+            <ol class="form-input">
+                <label>Nama Lengkap</label>
+                <input type="text" name="nama_lengkap" placeholder="Masukkan nama sesuai KTM" required>
+            </ol>
+
+            <ol class="form-input" >
+                <label>NIM</label>
+                <input type="number" name="nim" placeholder="Contoh: 220101001" required>
+            </ol>
+
+            <ol class="form-input" >
+                <label>Program Studi</label>
+                <input type="text" name="prodi" placeholder="Misal: Teknik Informatika">
+            </ol>
+
+            <ol class="form-input" >
+                <label>Email Kampus</label>
+                <input type="email" name="email" placeholder="nama@student.univ.ac.id" required>
+            </ol>
+
+            <ol class="form-input" >
+                <label>Pilihan Divisi</label>
+                <select name="divisi">
+                    <option value="">-- Pilih Divisi --</option>
+                    <option value="acara">Divisi Acara</option>
+                    <option value="humas">Divisi Humas</option>
+                    <option value="perlengkapan">Divisi Perlengkapan</option>
+                    <option value="konsumsi">Divisi Konsumsi</option>
+                </select>
+            </ol>
+
+            <ol class="form" class="field">
+                <label>Alasan Bergabung</label>
+                <textarea name="alasan" rows="2" cols="50" placeholder="Ceritakan motivasi kamu..."></textarea>
+            </ol>
+
+            <button type="submit">Daftar Sekarang</button>
+        </form>
+    </div>
+</body>
+</html>

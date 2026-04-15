@@ -1,0 +1,14 @@
+#title{
+    font-size: xx-large;
+    font-weight: bolder;
+    color: blueviolet;
+}
+
+p{
+    font-size: large;
+    font-weight: bold;
+}
+
+.desc{
+    font-size: medium;
+}

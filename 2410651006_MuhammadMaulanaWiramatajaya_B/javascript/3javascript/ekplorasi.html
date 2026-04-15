@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Handling JavaScript</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; background-color: #f4f7f6; }
+        section { background: white; padding: 20px; border-radius: 8px; margin-bottom: 30px; border: 1px solid #ddd; }
+        .preview-box { margin-top: 15px; padding: 15px; background: #e9ecef; border-left: 5px solid #28a745; min-height: 50px; }
+        form div { margin-bottom: 10px; }
+        label { display: block; font-weight: bold; }
+        input { padding: 8px; width: 250px; border: 1px solid #ccc; border-radius: 4px; }
+        button { padding: 8px 15px; cursor: pointer; background: #007bff; color: white; border: none; border-radius: 4px; }
+    </style>
+</head>
+<body>
+
+    <section>
+        <h2>Tugas Eksplorasi</h2>
+        <button id="btn-klik">Klik Saya</button>
+        <p id="teks-paragraf">Teks asli sebelum tombol diklik.</p>
+
+        <hr>
+
+        <h4>Form Sederhana</h4>
+        <form id="form-sederhana">
+            <input type="text" id="input-pesan" placeholder="Ketik sesuatu...">
+            <button type="submit">Kirim</button>
+        </form>
+        <p>Hasil Input: <span id="hasil-input">-</span></p>
+    </section>
+
+    
+
+        <div class="preview-box">
+            <strong>Ringkasan Pendaftaran:</strong>
+            <div id="preview-data">Data akan muncul di sini...</div>
+        </div>
+    </section>
+
+    <script src="eksplorasi.js"></script>
+</body>
+</html>

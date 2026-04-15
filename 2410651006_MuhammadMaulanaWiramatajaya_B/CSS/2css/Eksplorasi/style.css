@@ -1,0 +1,31 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: p;
+    color: aliceblue;
+    background-color: gray;
+}
+.card{
+    width: 400px;
+}
+
+.card:hover{
+    background-color: rgb(68, 75, 81);
+}
+
+h3{
+    text-align: center;
+    color: white;
+}
+a{
+    color: rgb(4, 4, 149);
+    font-weight: 100;   
+    text-decoration: none;
+}
+
+a:hover{
+    line-height: line;
+    color: aqua;
+}
+/* font-family, font-size, font-weight
+color, background-color
+line-height, text-align, text-decoration */

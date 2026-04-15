@@ -1,0 +1,23 @@
+:root{
+    font-family: 'Poppins', sans-serif;
+    color:white
+
+}
+body{
+    background-color: cadetblue;
+}
+td,th{
+    padding: 2px ;
+    border: 1px black solid;
+}
+
+th{
+
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+
+}
+tr{
+    height: 30px;
+}
+
